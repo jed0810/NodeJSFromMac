@@ -88,5 +88,10 @@ module.exports = {
     net: 'empty',
     tls: 'empty',
     child_process: 'empty'
-  }
+  },
+  Plugins:[
+    new webpack.ProvidePlugin({
+      $: 'jquery'
+    })
+  ]
 }

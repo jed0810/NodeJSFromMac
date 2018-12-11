@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
+    <img src="https://jedscloud.i234.me/line_bot_photo/S__101023876.jpg" width="25%">
     <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
+    <!-- <h2>Essential Links</h2>
     <ul>
       <li>
         <a
@@ -79,7 +80,7 @@
           awesome-vue
         </a>
       </li>
-    </ul>
+    </ul> -->
   </div>
 </template>
 
@@ -88,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '請問你是？'
     }
   }
 }
