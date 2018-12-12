@@ -1,6 +1,6 @@
 <template>  
   <div class="hello">
-    <img src="https://github.com/vuejs/awesome-vue">
+    <img src="https://jedscloud.i234.me/line_bot_photo/S__101023876.jpg" width="25%">
     <h1>{{ msg }}</h1>
   </div>
 </template>
@@ -10,7 +10,7 @@ export default {
   name: 'CatDown',
   data () {
     return {
-      msg: '這是連結二，所以貓咪消失'
+      msg: '這是連結二，所以貓咪躺著'
     }
   }
 }
