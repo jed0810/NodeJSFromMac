@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" id="logo">
     <nav>
       <router-link to="/">首頁</router-link>
-      <router-link to="/down">貓消失</router-link>
+      <router-link to="/down">貓躺著</router-link>
     </nav>
     <router-view/>
     <SiteFooter></SiteFooter>
